@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>04.11.21 шістнадцятий урок</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+       <main class="main">
+           <div class="appointment">
+               <div class="appointment__body">
+                <div class="appointment__title">Make an appointment</div>
+                <form class="appointment__form" action="">
+                   <div class="appointment__row">
+                       <div class="appointment__column column__appointment">
+                               <div class="column__appointment__item">
+                               <input placeholder="Name" class="column__appointment__input" type="text">
+                                </div>
+                               <div class="column__appointment__item">
+                                <input  placeholder="Phone Number" class="column__appointment__input" type="tel">
+                                </div>
+                       </div>
+                       <div class="appointment__column column__appointment">
+                               <div class="column__appointment__item">
+                               <input placeholder="Email" class="column__appointment__input" type="email">
+                                </div>
+                               <div class="column__appointment__item">
+                               <input placeholder="Select Service" class="column__appointment__input" type="text">
+                                </div>
+                       </div>
+                   </div>
+                   <div class="appointment__textarea">
+                       <textarea name="textarea" placeholder="Tell us about your puppers include his/her name"></textarea>
+                   </div>
+                   <div class="appointment__button button-appointment">
+                       <button type="submit" class="button-appointment__btn">Make an Appointment</button>
+                   </div>
+                </form>
+           </div>
+           </div>
+           <div class="summary">
+               <div class="summary__body">
+                   <div class="summary__title">Summary</div>
+                   <div class="summary__subtitle subtitle">Estimate Shipping and Tax</div>
+                   <div class="summary__text">Enter your destination to get a shipping estimate.</div>
+                   <form action="" class="summary__form">
+                       <div class="summary__select">
+                       <label class="summary__label" for="menu">Country</label>
+                       <select name="" id="menu" class="summary__menu">
+                           <option value="1">Australia</option>
+                           <option value="2">Ukraine</option>
+                           <option value="3">Canada</option>
+                           <option value="4">UK</option>
+                       </select>
+                    </div>
+                       <div class="summary__item">
+                        <label class="summary__label" for="state">State/Province</label>
+                        <input autocomplete="off" id="state" class="summary__input" type="text">
+                       </div>
+                       <div class="summary__item">
+                        <label class="summary__label" for="zip">Zip/Postal Code</label>
+                        <input autocomplete="off" id="zip" class="summary__input" type="text">
+                       </div>
+                       <div class="summary__radio radio">
+                        <div class="radio__items">
+                           <div class="radio__title">Standard Rate</div>
+                            <div class="radio__item">
+                                <input checked autocomplete="off" name="itemone" id="item1" class="radio__input" type="radio">
+                                <label  class="radio__label" for="item1">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+                            </div>
+                            <div class="radio__title">Pickup from store</div>
+                            <div class="radio__item">
+                                <input  autocomplete="off" name="itemone" id="item2" class="radio__input" type="radio">
+                                <label  class="radio__label" for="item2">1234 Street Adress City Address, 1234 $0.00</label>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="summary__subtitle subtitle">Apply Discount Code</div>
+                       <div class="summary__item">
+                        <label class="summary__label" for="discount">Enter discount code</label>
+                        <input autocomplete="off" placeholder="Enter Discount code" id="discount" class="summary__input" type="text">
+                       </div>
+                       <div class="summary__button button-summary">
+                        <button type="submit" class="button-summary__btn">Apply Discount</button>
+                       </div>
+                   </form>
+               </div>
+           </div>
+           <div class="registered">
+               <div class="registered__body">
+                   <div class="registered__title">Registered Customers</div>
+                   <div class="registered__text">If you have an account, sign in with your email address.</div>
+                   <form action="" class="registered__form">
+                       <div class="registered__items">
+                           <div class="registered__item item-registered">
+                             <div class="item-registered__headline">Email <span>*</span> </div>
+                             <input required placeholder="Your Name" type="email" class="item-registered__input">
+                           </div>
+                           <div class="registered__item item-registered">
+                             <div class="item-registered__headline">Password <span>*</span> </div>
+                             <input required placeholder="Your Password" type="password" class="item-registered__input">
+                           </div>
+                       </div>
+                       <div class="registered__button">
+                           <button class="registered__btn">Sign In</button>
+                           <a href="" class="registered__link">Forgot Your Password?</a>
+                       </div>
+                   </form>
+               </div>
+           </div>
+           <div class="shipping">
+               <div class="shipping__body">
+               <div class="shipping__headline">Shipping Address</div>
+               <form action="" class="shipping__form">
+                  <div class="shipping__items">
+                      <div class="shipping__item item-shipping">
+                          <div class="item-shipping__title">Email Address <span>*</span> </div>
+                          <input required type="email" class="item-shipping__input">
+                      </div>
+                      <div class="shipping__text">You can create an account after checkout.</div>
+                      <div class="shipping__item item-shipping">
+                        <div class="item-shipping__title">First Name <span>*</span> </div>
+                        <input required type="text" class="item-shipping__input">
+                    </div>
+                      <div class="shipping__item item-shipping">
+                        <div class="item-shipping__title">Last Name <span>*</span> </div>
+                        <input required type="text" class="item-shipping__input">
+                    </div>
+                      <div class="shipping__item item-shipping">
+                        <div class="item-shipping__title">Company <span>*</span> </div>
+                        <input required type="text" class="item-shipping__input">
+                    </div>
+                      <div class="shipping__item item-shipping">
+                        <div class="item-shipping__title">Street Address <span>*</span> </div>
+                        <input required type="text" class="item-shipping__input item-shipping__input_block">
+                        <input required type="text" class="item-shipping__input item-shipping__input_block">
+                    </div>
+                    <div class="shipping__item item-shipping">
+                        <div class="item-shipping__title">City <span>*</span> </div>
+                        <input required type="text" class="item-shipping__input">
+                    </div>
+                    <div class="shipping__item item-shipping">
+                        <div class="item-shipping__title">State/Province <span>*</span> </div>
+                        <select name="" class="item-shipping__menu">
+                            <option value="0" disabled selected hidden>Please, select a region, state or province</option>
+                            <option value="1">Australia</option>
+                            <option value="2">Ukraine</option>
+                            <option value="3">Canada</option>
+                            <option value="4">UK</option>
+                        </select>
+                    </div>
+                    <div class="shipping__item item-shipping">
+                        <div class="item-shipping__title">Zip/Postal Code <span>*</span> </div>
+                        <input required type="text" class="item-shipping__input">
+                    </div>
+                    <div class="shipping__item item-shipping">
+                        <div class="item-shipping__title">Country <span>*</span> </div>
+                        <select name="" class="item-shipping__menu">
+                            <option value="1">United States</option>
+                            <option value="2">Ukraine</option>
+                            <option value="3">Canada</option>
+                            <option value="4">UK</option>
+                        </select>
+                    </div>
+                    <div class="shipping__item item-shipping">
+                        <div class="item-shipping__title">Phone Number <span>*</span> </div>
+                        <input required type="tel" class="item-shipping__input">
+                    </div>
+                  </div>
+                  <div class="shipping__radiobuttons radiobuttons-shipping">
+                      <div class="radiobuttons-shipping__items">
+                        <div class="radiobuttons-shipping__title">Standard Rate</div>
+                        <div class="radiobuttons-shipping__item">
+                          <input checked name="shipping" id="ship1" type="radio" class="radiobuttons-shipping__input">
+                          <label for="ship1" class="radiobuttons-shipping__label">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+                          <div class="radiobuttons-shipping__prize">$21.00</div>
+                        </div>
+                      
+                      <div class="radiobuttons-shipping__title">Pickup from store</div>
+                      <div class="radiobuttons-shipping__item">
+                          <input name="shipping" id="ship2" type="radio" class="radiobuttons-shipping__input">
+                          <label for="ship2" class="radiobuttons-shipping__label">1234 Street Adress City Address, 1234</label>
+                          <div class="radiobuttons-shipping__prize">$0.00</div>
+                      </div>
+                    </div>
+                </div>
+               </form>
+            </div>
+           </div>
+       </main>
+    <footer class="footer"></footer>
+    </div>
+   <!-- <form  class="forma" action="#">
+        <input class="clown" placeholder="Введите имя" name="username"  type="text">
+        <input autocomplete="off" placeholder="Введите возраст" name="age"  type="number">
+        <input placeholder="Введите телефон" name="phonenumber"  type="tel">
+        <input placeholder="Ведите пароль" name="pass"  type="password">
+       </form>-->
+<!--  <svg  class="test1" width="73" height="72" viewBox="0 0 73 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M29.5 42C37.4967 42 44 35.721 44 28C44 20.279 37.4967 14 29.5 14C21.5032 14 15 20.279 15 28C15 35.721 21.5032 42 29.5 42ZM29.5 21C33.4984 21 36.75 24.1395 36.75 28C36.75 31.8605 33.4984 35 29.5 35C25.5016 35 22.25 31.8605 22.25 28C22.25 24.1395 25.5016 21 29.5 21Z" fill="#0D5C63"/>
+        <path d="M27.4338 70.3403C28.0367 70.7693 28.7591 71 29.5 71C30.2409 71 30.9633 70.7693 31.5662 70.3403C32.6492 69.577 58.103 51.2624 57.9997 28.4002C57.9997 12.7411 45.214 0 29.5 0C13.786 0 1.00031 12.7411 1.00031 28.3825C0.897002 51.2624 26.3508 69.577 27.4338 70.3403ZM29.5 7.10006C41.2882 7.10006 50.8748 16.6532 50.8748 28.418C50.9496 44.173 35.2427 58.3199 29.5 62.9598C23.7609 58.3163 8.05042 44.1659 8.12524 28.4002C8.12524 16.6532 17.7118 7.10006 29.5 7.10006Z" fill="#0D5C63"/>
+        </svg>
+    <svg  class="test2" width="73" height="72" viewBox="0 0 73 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M29.5 42C37.4967 42 44 35.721 44 28C44 20.279 37.4967 14 29.5 14C21.5032 14 15 20.279 15 28C15 35.721 21.5032 42 29.5 42ZM29.5 21C33.4984 21 36.75 24.1395 36.75 28C36.75 31.8605 33.4984 35 29.5 35C25.5016 35 22.25 31.8605 22.25 28C22.25 24.1395 25.5016 21 29.5 21Z" fill="#0D5C63"/>
+        <path d="M27.4338 70.3403C28.0367 70.7693 28.7591 71 29.5 71C30.2409 71 30.9633 70.7693 31.5662 70.3403C32.6492 69.577 58.103 51.2624 57.9997 28.4002C57.9997 12.7411 45.214 0 29.5 0C13.786 0 1.00031 12.7411 1.00031 28.3825C0.897002 51.2624 26.3508 69.577 27.4338 70.3403ZM29.5 7.10006C41.2882 7.10006 50.8748 16.6532 50.8748 28.418C50.9496 44.173 35.2427 58.3199 29.5 62.9598C23.7609 58.3163 8.05042 44.1659 8.12524 28.4002C8.12524 16.6532 17.7118 7.10006 29.5 7.10006Z" fill="#0D5C63"/>
+        </svg>
+    <svg  class="test3" width="73" height="72" viewBox="0 0 73 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M29.5 42C37.4967 42 44 35.721 44 28C44 20.279 37.4967 14 29.5 14C21.5032 14 15 20.279 15 28C15 35.721 21.5032 42 29.5 42ZM29.5 21C33.4984 21 36.75 24.1395 36.75 28C36.75 31.8605 33.4984 35 29.5 35C25.5016 35 22.25 31.8605 22.25 28C22.25 24.1395 25.5016 21 29.5 21Z" fill="#0D5C63"/>
+        <path d="M27.4338 70.3403C28.0367 70.7693 28.7591 71 29.5 71C30.2409 71 30.9633 70.7693 31.5662 70.3403C32.6492 69.577 58.103 51.2624 57.9997 28.4002C57.9997 12.7411 45.214 0 29.5 0C13.786 0 1.00031 12.7411 1.00031 28.3825C0.897002 51.2624 26.3508 69.577 27.4338 70.3403ZM29.5 7.10006C41.2882 7.10006 50.8748 16.6532 50.8748 28.418C50.9496 44.173 35.2427 58.3199 29.5 62.9598C23.7609 58.3163 8.05042 44.1659 8.12524 28.4002C8.12524 16.6532 17.7118 7.10006 29.5 7.10006Z" fill="#0D5C63"/>
+        </svg> -->
+            
+            
+<!--<div class="our-impact _container-1440">
+            <div class="our-impact__block">
+            <div class="our-impact__header">
+                <div class="our-impact__heading heading-pattern">
+                <div class="heading-pattern__title">OUR IMPACT</div>
+                <div class="heading-pattern__subtitle">Nemo enim ipsam voluptatem quia voluptas</div>
+            </div>
+                <div class="our-impact__image">
+                    <img src="img/doggyother/Image.jpg" alt="">
+                </div>
+            </div>
+            <div class="our-impact__items">
+                <div class="item">
+                    <div class="item__image">
+                        <img src="img/doggysvg/dog_duckling_24x.svg" alt="duckling">
+                    </div>
+                    <div class="item__body">
+                        <div class="item__text">3,700</div>
+                        <div class="item__subtext">puppy baths</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__image">
+                        <img src="img/doggysvg/dog_house_24px.svg" alt="dog_house">
+                    </div>
+                    <div class="item__body">
+                        <div class="item__text">4,500</div>
+                        <div class="item__subtext">dogs boarded</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__image">
+                        <img src="img/doggysvg/dog_leash_24x.svg" alt="dog_leash">
+                    </div>
+                    <div class="item__body">
+                        <div class="item__text">2,900</div>
+                        <div class="item__subtext">pups trained</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__image">
+                        <img src="img/doggysvg/dog_food_bowl_24x.svg" alt="dog_food_bowl">
+                    </div>
+                    <div class="item__body">
+                        <div class="item__text">12k+</div>
+                        <div class="item__subtext">meals served</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="promise _container-1040">
+        <div class="promise__header">
+            <div class="promise__title">OUR PROMISE TO YOU</div>
+            <div class="promise__text">Sed perspiciatis omnis iste natus</div>
+        </div>
+        <div class="promise__items">
+            <div class="promise__item item-promise">
+                <div class="item-promise__image">
+                    <img src="img/promisesvg/dog_love_24x.svg" alt="doglove">
+                </div>
+                <div class="item-promise__body">
+                  <div class="item-promise__headline">24/7 Love & Care</div>  
+                  <div class="item-promise__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</div>
+                </div>
+
+
+            </div>
+            <div class="promise__item item-promise">
+                <div class="item-promise__image">
+                    <img src="img/promisesvg/dog_vet_24x.svg" alt="doglove">
+                </div>
+                <div class="item-promise__body">
+                  <div class="item-promise__headline">On-site Veterinarian</div>  
+                  <div class="item-promise__text">Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.</div>
+                </div>
+            </div>
+            <div class="promise__item item-promise">
+                <div class="item-promise__image">
+                    <img src="img/promisesvg/dog_stream_24x.svg" alt="doglove">
+                </div>
+                <div class="item-promise__body">
+                  <div class="item-promise__headline">Live-stream Cameras</div>  
+                  <div class="item-promise__text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur illum.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+       
+    <script src="js/script.js"></script>
+</body>
+</html>
