@@ -159,7 +159,7 @@ body {
 .button-appointment__btn {
     background-color: #F2726F;
     border-radius: 8px;
-    padding: 12px 34px;
+    padding: 2.737% 7.1%;
     font-family: Roboto;
     font-size: 12px;
     font-weight: 700;
@@ -343,7 +343,7 @@ body {
     width: 100%;
     border: 2px solid #0156FF;
     border-radius: 50px;
-    padding: 12px 34px;
+    padding: 2.85% 0px;
     font-family: Roboto;
     font-size: 12px;
     font-weight: 700;
@@ -425,7 +425,7 @@ body {
 .registered__btn {
     background-color: #0156FF;
     border-radius: 50px;
-    padding: 14px 50px;
+    padding: 3.27% 11.15%;
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
@@ -601,4 +601,20 @@ body {
     top: 4px;
     left: 4px;
     transform: scale(0);
+}
+
+.shipping__button {
+}
+.shipping__btn {
+    background-color: #0156FF;
+    border-radius: 50px;
+    padding: 2.737% 16.8%;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
 }

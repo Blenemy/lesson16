@@ -14,7 +14,7 @@
            <div class="appointment">
                <div class="appointment__body">
                 <div class="appointment__title">Make an appointment</div>
-                <form class="appointment__form" action="">
+                <form class="appointment__form" action="#">
                    <div class="appointment__row">
                        <div class="appointment__column column__appointment">
                                <div class="column__appointment__item">
@@ -47,10 +47,10 @@
                    <div class="summary__title">Summary</div>
                    <div class="summary__subtitle subtitle">Estimate Shipping and Tax</div>
                    <div class="summary__text">Enter your destination to get a shipping estimate.</div>
-                   <form action="" class="summary__form">
+                   <form action="#" class="summary__form">
                        <div class="summary__select">
                        <label class="summary__label" for="menu">Country</label>
-                       <select name="" id="menu" class="summary__menu">
+                       <select  id="menu" class="summary__menu">
                            <option value="1">Australia</option>
                            <option value="2">Ukraine</option>
                            <option value="3">Canada</option>
@@ -69,12 +69,12 @@
                         <div class="radio__items">
                            <div class="radio__title">Standard Rate</div>
                             <div class="radio__item">
-                                <input checked autocomplete="off" name="itemone" id="item1" class="radio__input" type="radio">
+                                <input checked name="itemone" id="item1" class="radio__input" type="radio">
                                 <label  class="radio__label" for="item1">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
                             </div>
                             <div class="radio__title">Pickup from store</div>
                             <div class="radio__item">
-                                <input  autocomplete="off" name="itemone" id="item2" class="radio__input" type="radio">
+                                <input  name="itemone" id="item2" class="radio__input" type="radio">
                                 <label  class="radio__label" for="item2">1234 Street Adress City Address, 1234 $0.00</label>
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                <div class="registered__body">
                    <div class="registered__title">Registered Customers</div>
                    <div class="registered__text">If you have an account, sign in with your email address.</div>
-                   <form action="" class="registered__form">
+                   <form action="#" class="registered__form">
                        <div class="registered__items">
                            <div class="registered__item item-registered">
                              <div class="item-registered__headline">Email <span>*</span> </div>
@@ -115,7 +115,7 @@
            <div class="shipping">
                <div class="shipping__body">
                <div class="shipping__headline">Shipping Address</div>
-               <form action="" class="shipping__form">
+               <form action="#" class="shipping__form">
                   <div class="shipping__items">
                       <div class="shipping__item item-shipping">
                           <div class="item-shipping__title">Email Address <span>*</span> </div>
@@ -145,7 +145,7 @@
                     </div>
                     <div class="shipping__item item-shipping">
                         <div class="item-shipping__title">State/Province <span>*</span> </div>
-                        <select name="" class="item-shipping__menu">
+                        <select  class="item-shipping__menu">
                             <option value="0" disabled selected hidden>Please, select a region, state or province</option>
                             <option value="1">Australia</option>
                             <option value="2">Ukraine</option>
@@ -159,7 +159,7 @@
                     </div>
                     <div class="shipping__item item-shipping">
                         <div class="item-shipping__title">Country <span>*</span> </div>
-                        <select name="" class="item-shipping__menu">
+                        <select class="item-shipping__menu">
                             <option value="1">United States</option>
                             <option value="2">Ukraine</option>
                             <option value="3">Canada</option>
@@ -187,6 +187,9 @@
                           <div class="radiobuttons-shipping__prize">$0.00</div>
                       </div>
                     </div>
+                </div>
+                <div class="shipping__button">
+                    <button class="shipping__btn">Next</button>
                 </div>
                </form>
             </div>
